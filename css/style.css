@@ -10,3 +10,31 @@
 #Jajargenjang {
     display: none;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    align-items: center;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #4625ff;
+    color: white;
+  }
+section{
+    padding: 10px;
+    max-width: 450px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color:black;
+}
