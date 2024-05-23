@@ -10,19 +10,69 @@
     <header class="nav-header">
         <nav>
             <ul>
-                <li><a href="#home" class="active">Segitiga</a></li>
-                <li><a href="#package">Jajar Genjang</a></li>
+                <li><a onclick="segitiga()" class="active">Segitiga</a></li>
+                <li><a onclick="jajargenjang()">Jajar Genjang</a></li>
             </ul>
         </nav>
     </header>
-    <body>
-        <section class="">
-
-        </section>
-        <div class="">
-
+    <section>
+        <div id="Segitiga">
+            <aside>
+            <h1> Segitiga </h1>
+            <img src="asset/seg.png" alt="">
+            <h1>
+                Rumus luas segitiga yaitu : 
+            </h1>
+            <img src="asset/lseg.png" alt="">
+            <h1>
+                Di mana : 
+            </br>
+                L = Luas
+            </br>
+                a = Tinggi
+            </br>
+                b = Panjang Alas
+            </h1>
+            </aside>
+            <br/>
+                <label for="panjang">Panjang Alas</label>  : <input required id="panjang" type="number" placeholder="Masukkan Panjang Alas"> 
+            <br/>
+                <label for="tinggi">Tinggi</label> : <input required id="tinggi" type="number" placeholder="Masukkan Tinggi">
+            <br/>
+            <input type="submit" value="submit" id="submitsegitiga" onclick="subseg()" >
+            <span id="segresult"></span>
+            <button onclick="clearfield()">Reset</button>
         </div>
-    </body>
+        <div id="Jajargenjang">
+            <aside>
+                <h1>Jajargenjang</h1>
+            <img src="asset/jajar.png" alt="">
+            <h1>
+                Rumus luas jajargenjang yaitu : 
+            </h1>
+            <img src="asset/ljar.png" alt="">
+            </aside>
+            <h1>
+                Di mana : 
+            </br>
+                L = Luas
+            </br>
+                a = Tinggi
+            </br>
+                b = Panjang Alas
+            </h1>
+            <br/>
+                <label for="Alas Jajargenjang">Alas Jajargenjang</label>  : <input required id="alasjar" type="number" placeholder="Masukkan Alas"> 
+            <br/>
+                <label for="Tinggi Jajargenjang">Tinggi Jajargenjang</label> : <input required id="tinggijar" type="number" placeholder="Masukkan Tinggi">
+            <br/>
+            <input type="submit" value="submit" id="submitjajar" onclick="subjar()" >
+            <span id="jarresult"></span>
+            <button onclick="clearfield()">Reset</button>
+        </div>
+       
+
+    </section>
     <footer>
 
     </footer>

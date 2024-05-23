@@ -1,0 +1,12 @@
+* {
+    margin: 20dp;
+    padding: 20dp;
+    box-sizing: border-box;
+    font-family: 'Segoe UI',sans-serif ;
+}
+#Segitiga {
+    display: block;
+}
+#Jajargenjang {
+    display: none;
+}
